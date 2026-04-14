@@ -93,9 +93,9 @@ body {
     --text-5: oklch(60% 0 0); /* muted channels/chats and timestamps */
 
     /* background and dark colors */
-    --bg-1: linear-gradient(rgba(0, 0, 0, 0.274), rgba(119, 0, 255, 0.274)),
+    --bg-1: linear-gradient(rgb(111, 0, 255), rgb(111, 0, 255)),
     url('https://upload.wikimedia.org/wikipedia/commons/8/8c/Transparent.png');; /* dark buttons when clicked */
-    --bg-2: oklch(27% 0 0); /* dark buttons */
+    --bg-2: transparent;; /* dark buttons */
     --bg-3: linear-gradient(rgb(0, 0, 0), rgba(0,0,0,0.5)),
     url('https://upload.wikimedia.org/wikipedia/commons/8/8c/Transparent.png');; /* spacing, secondary elements */
     --bg-4: transparent; /* main background color */
